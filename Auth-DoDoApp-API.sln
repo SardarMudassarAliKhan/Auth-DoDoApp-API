@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth-DoDoApp-API", "Auth-DoDoApp-API\Auth-DoDoApp-API.csproj", "{54CD47FE-B6C3-4E76-9F51-D0D614FB6CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth-DoDoApp-API", "Auth-DoDoApp-API\Auth-DoDoApp-API.csproj", "{748212DF-39DD-4E7A-9C47-133D009946E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo-Auth-BAL", "ToDo-Auth-BAL\ToDo-Auth-BAL.csproj", "{7FA29EB2-6AD6-4E27-BCF4-D6EF873E5E0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo-Auth-DAL", "ToDo-Auth-DAL\ToDo-Auth-DAL.csproj", "{0EE254DC-0CCE-482F-85A5-1F305F2FD726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54CD47FE-B6C3-4E76-9F51-D0D614FB6CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54CD47FE-B6C3-4E76-9F51-D0D614FB6CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54CD47FE-B6C3-4E76-9F51-D0D614FB6CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54CD47FE-B6C3-4E76-9F51-D0D614FB6CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748212DF-39DD-4E7A-9C47-133D009946E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748212DF-39DD-4E7A-9C47-133D009946E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748212DF-39DD-4E7A-9C47-133D009946E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748212DF-39DD-4E7A-9C47-133D009946E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA29EB2-6AD6-4E27-BCF4-D6EF873E5E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA29EB2-6AD6-4E27-BCF4-D6EF873E5E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA29EB2-6AD6-4E27-BCF4-D6EF873E5E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA29EB2-6AD6-4E27-BCF4-D6EF873E5E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE254DC-0CCE-482F-85A5-1F305F2FD726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE254DC-0CCE-482F-85A5-1F305F2FD726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE254DC-0CCE-482F-85A5-1F305F2FD726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE254DC-0CCE-482F-85A5-1F305F2FD726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
