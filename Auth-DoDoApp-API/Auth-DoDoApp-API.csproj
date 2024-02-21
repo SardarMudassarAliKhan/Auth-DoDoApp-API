@@ -14,4 +14,15 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ToDo-Auth-BAL\ToDo-Auth-BAL.csproj" />
+    <ProjectReference Include="..\..\ToDo-Auth-DAL\ToDo-Auth-DAL.csproj" />
+    <ProjectReference Include="..\ToDo-Auth-BAL\ToDo-Auth-BAL.csproj" />
+    <ProjectReference Include="..\ToDo-Auth-DAL\ToDo-Auth-DAL.csproj" />
+  </ItemGroup>
+
 </Project>
